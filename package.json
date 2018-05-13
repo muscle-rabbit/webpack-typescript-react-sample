@@ -1,0 +1,44 @@
+{
+  "name": "webpack-typescript-react-sample",
+  "version": "1.0.0",
+  "description": "Sample project for using webpack, typescript and react.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.preview.js",
+    "build": "webpack --config webpack.config.dev.js",
+    "build:prod": "webpack --config webpack.config.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgnorantCoder/webpack-typescript-react-sample.git"
+  },
+  "keywords": [
+    "npm",
+    "typescript",
+    "react"
+  ],
+  "author": "IgnorantCoder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IgnorantCoder/webpack-typescript-react-sample/issues"
+  },
+  "homepage": "https://github.com/IgnorantCoder/webpack-typescript-react-sample#readme",
+  "devDependencies": {
+    "@types/react": "^16.3.14",
+    "@types/react-dom": "^16.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^4.3.0",
+    "tslint": "^5.10.0",
+    "tslint-config-airbnb": "^5.8.0",
+    "tslint-loader": "^3.6.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.8.2",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}
