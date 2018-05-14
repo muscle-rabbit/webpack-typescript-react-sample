@@ -5,6 +5,12 @@
     "module": "es6",
     "target": "es5",
     "jsx": "react",
-    "lib": ["ES2018", "dom"]
+    "lib": ["ES2018", "dom"],
+    "removeComments": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
   }
 }
